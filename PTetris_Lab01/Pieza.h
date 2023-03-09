@@ -38,9 +38,7 @@ public:
 	void rotar(int _angulo);
 	void acelerar(float _velocidad);
 	void moverHorizontalmente(int _direccion);
-
-
-
-protected:
+	void pruebaDeMovimiento(int _posicion_X); 
+	void pruebaDeRotacion(int _gradosRotacionHorizontal, int _gradosRotacionVertical);
 };
 

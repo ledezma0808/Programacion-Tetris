@@ -11,7 +11,10 @@ private:
 	int bordeIzquierda;
 	int bordeDerecha;
 	int filaActual;
-	int numeroFilasEliminadas;
+	int eliminarFilaLLena;
+	int filaLLena;
+	int colisionPieza;
+	int colisionPiezaEnRotaion;
 	Bloque bloqueSiguiente;
 
 public:

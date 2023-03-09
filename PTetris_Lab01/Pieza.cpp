@@ -52,3 +52,12 @@ void Pieza::moverHorizontalmente(int _direccion)
 {
 	cout << "Esta funcion permite mover la figurar hacia la derecha o izquierda." << endl;
 }
+
+void Pieza::pruebaDeMovimiento(int _posicion_X)
+{
+	cout << "Esta funcion nos permite simular el movimiento de la pieza para saber si no choca con ninguna otra";
+}
+void Pieza::pruebaDeRotacion(int _gradosRotacionHorizontal, int _gradosRotacionVertical)
+{
+	cout << "Esta funcion nos permite simular el giro de la pieza para saber si entra en la matriz sin chocar";
+}

@@ -1,6 +1,8 @@
 #pragma once
 #include<string>
 #include "Tablero.h"
+#include"Bloque.h"
+
 
 using namespace std;
 
@@ -17,6 +19,7 @@ private:
 	int nivel;
 	int numeroVidas;
 	Tablero tablero;
+	Bloque verNuevoBloque;
 
 public:
 	Escenario() {
@@ -28,4 +31,5 @@ public:
 
 	void setTablero(Tablero _tablero) { tablero = _tablero; }
 	Tablero getTablero() { return tablero; }
+	void mostrarNuevasFiguras(int verNuevoBloque);
 };

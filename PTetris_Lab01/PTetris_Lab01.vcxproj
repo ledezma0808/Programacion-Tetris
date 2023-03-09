@@ -24,6 +24,7 @@
     <ProjectGuid>{00011592-9eb6-45ca-867a-213fef1b1cb4}</ProjectGuid>
     <RootNamespace>PTetrisLab01</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Tetris Ledezma Jose David</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bloque.cpp" />
+    <ClCompile Include="bolsaFiguras.cpp" />
     <ClCompile Include="Escenario.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Pieza.cpp" />
@@ -136,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bloque.h" />
+    <ClInclude Include="bolsaFiguras.h" />
     <ClInclude Include="Escenario.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Pieza.h" />
