@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main() {
-	cout << "Hola bienvenido al mundo de Tetris." << endl;
+	cout << "Bienvenido al mundo de Tetris." << endl;
 
 	Escenario escenarioInicial;
 
